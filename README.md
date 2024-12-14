@@ -59,3 +59,54 @@ Si aún no has clonado el repositorio en tu máquina, puedes hacerlo con el sigu
 
 ```bash
 git clone https://github.com/tu_usuario/Tinylisp.git
+````
+Paso 2: Crear el directorio de construcción
+Es recomendable crear un directorio de construcción (build directory) para mantener los archivos generados separados del código fuente. Ejecuta los siguientes comandos en la terminal:
+
+bash
+Copiar código
+cd Tinylisp
+mkdir cmake-build-debug
+cd cmake-build-debug
+Paso 3: Generar los archivos de construcción con CMake
+Una vez dentro del directorio de construcción, ejecuta CMake para generar los archivos necesarios para compilar el proyecto:
+
+bash
+Copiar código
+cmake ..
+Este comando buscará el archivo CMakeLists.txt en el directorio raíz y generará los archivos necesarios para compilar el proyecto.
+
+Paso 4: Compilar el proyecto
+Para compilar el proyecto, usa el siguiente comando:
+
+bash
+Copiar código
+cmake --build . --target Tinylisp -j 18
+Este comando compilará el programa utilizando 18 hilos (puedes ajustar el número de hilos dependiendo de la capacidad de tu máquina).
+
+Paso 5: Ejecutar el programa
+Una vez que la compilación se haya completado sin errores, podrás ejecutar el programa con el siguiente comando:
+
+bash
+Copiar código
+./Tinylisp
+Este comando ejecutará el programa Tinylisp, que debería mostrar alguna salida en la consola dependiendo de la lógica implementada en el archivo main.cpp.
+
+Estructura del Proyecto
+El proyecto tiene la siguiente estructura de directorios:
+
+bash
+Copiar código
+Tinylisp/
+├── CMakeLists.txt        # Archivo de configuración de CMake
+├── main.cpp              # Código fuente principal del programa
+├── variante/             # Directorio que contiene los archivos de la clase Variant
+│   ├── Variant.cpp
+│   └── Variant.h
+└── cmake-build-debug/    # Directorio generado para la construcción
+main.cpp: Contiene la función principal del programa, donde se crean instancias de la clase Variant y se muestran resultados.
+Variant.h: Contiene la declaración de la clase Variant y su enumeración TipoVariante.
+Variant.cpp: Contiene la implementación de la clase Variant y sus métodos.
+Notas
+El programa está diseñado para representar los tipos de datos como Simbolo, Numero y Lista, y puede convertir estos valores en una representación JSON simple usando el método a_cadena_json().
+Si deseas añadir más tipos o funcionalidad al lenguaje Tinylisp, puedes modificar la clase Variant y su implementación.
