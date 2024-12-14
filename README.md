@@ -1,5 +1,6 @@
 # Link al repositorio:
-
+````
+````
 
 
 # Enunciado del Proyecto:
@@ -104,10 +105,10 @@ Tinylisp/
 │   └── Variant.h
 └── cmake-build-debug/    # Directorio generado para la construcción
 ````
-- **main.cpp:** Contiene la función principal del programa, donde se crean instancias de la clase Variant y se muestran resultados.
-- **Variant.h:** Contiene la declaración de la clase 'Variant' y su enumeración TipoVariante.
-- **Variant.cpp:** Contiene la implementación de la clase Variant y sus métodos.
+- **main.cpp:** Contiene la función principal del programa, donde se crean instancias de la clase `Variant` y se muestran resultados.
+- **Variant.h:** Contiene la declaración de la clase `Variant` y su enumeración TipoVariante.
+- **Variant.cpp:** Contiene la implementación de la clase `Variant` y sus métodos.
   
 ### Notas
-El programa está diseñado para representar los tipos de datos como Simbolo, Numero y Lista, y puede convertir estos valores en una representación JSON simple usando el método a_cadena_json().
+El programa está diseñado para representar los tipos de datos como `Simbolo`, `Numero` y `Lista`, y puede convertir estos valores en una representación JSON simple usando el método `a_cadena_json()`.
 Si deseas añadir más tipos o funcionalidad al lenguaje Tinylisp, puedes modificar la clase Variant y su implementación.
