@@ -105,7 +105,7 @@ Tinylisp/
 └── cmake-build-debug/    # Directorio generado para la construcción
 ````
 - **main.cpp:** Contiene la función principal del programa, donde se crean instancias de la clase Variant y se muestran resultados.
-- **Variant.h:** Contiene la declaración de la clase Variant y su enumeración TipoVariante.
+- **Variant.h:** Contiene la declaración de la clase 'Variant' y su enumeración TipoVariante.
 - **Variant.cpp:** Contiene la implementación de la clase Variant y sus métodos.
   
 ### Notas
