@@ -72,25 +72,28 @@ cd cmake-build-debug
 ### Paso 3: Generar los archivos de construcción con CMake
 Una vez dentro del directorio de construcción, ejecuta CMake para generar los archivos necesarios para compilar el proyecto:
 
-bash
+````bash
 Copiar código
 cmake ..
+````
 Este comando buscará el archivo CMakeLists.txt en el directorio raíz y generará los archivos necesarios para compilar el proyecto.
 
 ### Paso 4: Compilar el proyecto
 Para compilar el proyecto, usa el siguiente comando:
 
-bash
+````bash
 Copiar código
 cmake --build . --target Tinylisp -j 18
+````
 Este comando compilará el programa utilizando 18 hilos (puedes ajustar el número de hilos dependiendo de la capacidad de tu máquina).
 
 ### Paso 5: Ejecutar el programa
 Una vez que la compilación se haya completado sin errores, podrás ejecutar el programa con el siguiente comando:
 
-bash
+````bash
 Copiar código
 ./Tinylisp
+````
 Este comando ejecutará el programa Tinylisp, que debería mostrar alguna salida en la consola dependiendo de la lógica implementada en el archivo main.cpp.
 
 Estructura del Proyecto
