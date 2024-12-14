@@ -40,6 +40,8 @@ Para este proyecto, se te pide que implementes un intérprete "tiny-lisp" basado
 - Se debe incluir un archivo README con instrucciones sobre cómo compilar y ejecutar tu programa.
 - El proyecto debe compilarse sin errores ni advertencias en CLion.
 
+
+#
 # Solución:
 
 Este es un proyecto para un lenguaje de programación Lisp muy simple, denominado **Tinylisp**, implementado en C++. En este programa, se gestionan diferentes tipos de datos mediante la clase `Variant`, que puede almacenar símbolos, números y listas. Además, se puede generar una representación en formato JSON de estos valores.
