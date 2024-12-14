@@ -10,19 +10,19 @@ Para este proyecto, se te pide que implementes un intérprete "tiny-lisp" basado
 5. Implementar un método parse_json() que tome una cadena en formato JSON y la convierta a una instancia de la clase Variant.
 
 ## Rúbrica
-- (30%) Implementación de la clase Variant:
+- **(30%) Implementación de la clase Variant:**
 
 Se implementó la clase Variant correctamente, y se incluyeron todos los tipos de datos requeridos.
-- (20%) Método to_string():
+- **(20%) Método to_string():**
 
 El método to_string() está implementado correctamente y devuelve una cadena de texto que representa correctamente la instancia de la clase Variant.
-- (20%) Método to_json_string():
+- **(20%) Método to_json_string():**
 
 El método to_json_string() está implementado correctamente y devuelve una representación JSON válida de la instancia de la clase Variant.
-- (15%) Método estático from_json_string():
+- **(15%) Método estático from_json_string():**
 
 El método estático from_json_string() está implementado correctamente y puede tomar una cadena en formato JSON y convertirla en una instancia de la clase Variant.
-- (15%) Método parse_json():
+- **(15%) Método parse_json():**
 
 El método parse_json() está implementado correctamente y puede tomar una cadena en formato JSON y convertirla en una instancia de la clase Variant.
 
