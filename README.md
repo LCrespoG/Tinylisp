@@ -16,7 +16,7 @@ Para este proyecto, se te pide que implementes un intérprete "tiny-lisp" basado
 
 2. **(20%) Método to_string():**
 
-  - El método to_string() está implementado correctamente y devuelve una cadena de texto que representa correctamente la instancia de la clase Variant.
+- El método to_string() está implementado correctamente y devuelve una cadena de texto que representa correctamente la instancia de la clase Variant.
 
 3. **(20%) Método to_json_string():**
 
